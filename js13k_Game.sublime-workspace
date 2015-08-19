@@ -1,0 +1,416 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"jetpa",
+				"jetpackTimer"
+			],
+			[
+				"jet",
+				"jetpackTimer"
+			],
+			[
+				"level",
+				"levelObjs"
+			],
+			[
+				"key",
+				"keysPressed"
+			],
+			[
+				"start",
+				"startScreen"
+			],
+			[
+				"load",
+				"loadLevel"
+			],
+			[
+				"d",
+				"draw"
+			],
+			[
+				"map",
+				"map"
+			],
+			[
+				"get",
+				"getMap"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"time",
+				"getTime"
+			],
+			[
+				"dr",
+				"drawImage"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"border-top",
+				"border-top-right-radius"
+			],
+			[
+				"border-ra",
+				"border-radius"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"set",
+				"setupListeners"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"n",
+				"entityName	@entityName"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 637,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "game.js",
+			"settings":
+			{
+				"buffer_size": 13196,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources.json",
+			"settings":
+			{
+				"buffer_size": 245,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 488.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/dev projects/Javascript/js13k_Game"
+	],
+	"file_history":
+	[
+		"/D/dev projects/Javascript/js13k_Game/game-min.js",
+		"/C/xampp/htdocs/average-coder-done/config.php",
+		"/C/xampp/htdocs/average-coder-done/lib/config.php",
+		"/C/xampp/htdocs/average-coder-done/lib/js/jquery-extensions.js",
+		"/C/xampp/htdocs/average-coder-done/lib/resizeClass.php",
+		"/C/xampp/htdocs/average-coder-done/index.php",
+		"/C/xampp/htdocs/average-coder-done/lib/css/global.css",
+		"/C/xampp/htdocs/average-coder-done/lib/functions.php",
+		"/C/ColdFusion11/cfusion/wwwroot/tutorials/tut2.js",
+		"/C/ColdFusion11/cfusion/wwwroot/tutorials/tut1.js",
+		"/C/ColdFusion11/cfusion/wwwroot/tutorials/lib/js/test.js",
+		"/C/ColdFusion11/cfusion/wwwroot/tutorials/lib/htmlhead.cfm",
+		"/C/ColdFusion11/cfusion/wwwroot/tutorials/popup.cfm",
+		"/C/ColdFusion11/cfusion/wwwroot/tutorials/lib/js/jquery-extensions.js",
+		"/C/ColdFusion11/cfusion/wwwroot/tutorials/lib/js/jquery-extensionsOld.js",
+		"/C/ColdFusion11/cfusion/wwwroot/tutorials/Application.cfc",
+		"/C/ColdFusion11/cfusion/wwwroot/tutorials/lib/css/global.css",
+		"/C/ColdFusion11/cfusion/wwwroot/tutorials/lib/htmlfoot.cfm",
+		"/C/Users/Simon/Desktop/test/test.cfm",
+		"/C/Users/Simon/Desktop/test.cfm"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"4",
+			"{\n",
+			"console.log",
+			"this.tick",
+			"that.tick",
+			"console.log",
+			">');\n",
+			"$_SESSION['userid']",
+			"350",
+			"!= ",
+			"!===",
+			"====",
+			"=="
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"!== ",
+			"!==",
+			"==="
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 637,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								244,
+								244
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Enhanced HTML and CFML/EnhancedHTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "game.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13196,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3803,
+								3803
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2140.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "resources.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 245,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								243,
+								243
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "js13k_Game.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 234.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
+}
