@@ -199,10 +199,10 @@ var Game = function(cid, w, h, callback){
 				that.cx.fillText("Gravity Control", that.w/2, (that.h/2) - 75);
 				that.cx.font = "14px verdana";
 				that.cx.fillText("The world as we know it has ended, even Gravity is out of wack.", that.w/2, that.h/2);
-				that.cx.fillText("Your mission is to defeat all the blobs on your way to the big red button.", that.w/2, that.h/2 + 30);
-				that.cx.fillText("The big red button is the key to righting the Gravity problem.", that.w/2, that.h/2 + 60);
+				that.cx.fillText("Zombies are everywhere. Your mission is to kill as many of them as you can.", that.w/2, that.h/2 + 30);
+				that.cx.fillText("You have a jetpack with enough fuel for 5 seconds per level. Use it wisely.", that.w/2, that.h/2 + 60);
 				that.cx.font = "10px verdana";
-				that.cx.fillText("{left and right arrow} move from side to side, {space} fire, {up arrow} use jetpack.  You must be on a tile to use the jetpack.", this.w/2, this.h/2 + 90);
+				that.cx.fillText("{left and right arrow} move from side to side, {space} fire, {up arrow} use jetpack.", that.w/2, that.h/2 + 100);
 				that.cx.font = "14px verdana";
 				that.cx.fillText("Press ENTER to start.", that.w/2, that.h/2 + 140);
 			}
@@ -229,14 +229,21 @@ var Game = function(cid, w, h, callback){
 
 		this.draw = function(){
 			if(that.cx !== undefined){
+				var timePerLevel = parseInt(totalTime/1000) / (that.currLevel - 1);
+				var scorePerLevelComplete = 100;
+				var score = (scorePerLevelComplete - timePerLevel) * (that.currLevel - 1);
+				score = isNaN(score) ? 0 : score;
+				var scoreMsg = score > 0 ? ". Well done." : ". Opps, better luck next time."
+
 				that.cx.fillStyle=txtColor;
 				that.cx.font = "48px verdana";
 				that.cx.fillText("Game Over", that.w/2, that.h/2 - 100);
 				that.cx.font = "16px verdana";
 				that.cx.fillText("You completed " + (that.currLevel - 1) + " levels in " + (totalTime/1000).toFixed(2) + " seconds.", that.w/2, that.h/2 -50);
+				that.cx.fillText("Your score is " + score + scoreMsg, that.w/2, that.h/2 -20);
 				that.cx.font = "12px verdana";
-				that.cx.fillText("Press ESC to go back to start screen.", that.w/2, that.h/2 + 20);
-				that.cx.fillText("Press ENTER to go restart at level 1.", that.w/2, that.h/2 + 50);
+				that.cx.fillText("Press ESC to go back to start screen.", that.w/2, that.h/2 + 50);
+				that.cx.fillText("Press ENTER to go restart at level 1.", that.w/2, that.h/2 + 80);
 			}
 		};
 	};
