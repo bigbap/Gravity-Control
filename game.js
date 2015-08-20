@@ -2,7 +2,6 @@ var Game = function(cid, w, h, callback){
 	var that = this;
 	var txtColor = "#333"; //default text color
 	var fps = 30;
-	var resourcesFile = 'resources.json';
 
 	// add event listeners, this will store key pressed on key down in an array and remove on keyup
 	document.addEventListener('keydown', function(e){
@@ -142,21 +141,24 @@ var Game = function(cid, w, h, callback){
 		/* file currently only stores sprite data
 		/****************************************/
 
-		var client = new XMLHttpRequest();
-		client.open('GET', resourcesFile);
-		client.onreadystatechange = function() {
-			if(client.readyState == 4){
-				var jData = JSON.parse(client.responseText);
-				
-				var spriteData = jData.sprites;
-				var spriteSheet = jData.spriteSheet;
+		var resources = '	{';
+		resources +=	'		"spriteSheet": "spritesheet.png",';
+		resources +=	'		"sprites":{';
+		resources +=	'			"hero":{"sx":0, "sy":0, "w":20, "h":20, "dimM":1, "frames":2},';
+		resources +=	'			"zombie":{"sx":80, "sy":0, "w":20, "h":20, "dimM":1, "frames":2},';
+		resources +=	'			"tile":{"sx":160, "sy":0, "w":20, "h":20, "dimM":1, "frames":2},';
+		resources +=	'			"bullet":{"sx":240, "sy":0, "w":20, "h":20, "dimM":1, "frames":1}';
+		resources +=	'		}';
+		resources +=	'	}';
 
-				sprites.load(spriteSheet, spriteData, function(){
-					that.iLoaded = true;
-				});
-			}
-		}
-		client.send();
+		var jData = JSON.parse(resources);
+				
+		var spriteData = jData.sprites;
+		var spriteSheet = jData.spriteSheet;
+
+		sprites.load(spriteSheet, spriteData, function(){
+			that.iLoaded = true;
+		});
 	};
 
 	//sprites object, loads sprite data and handles draw for sprites
