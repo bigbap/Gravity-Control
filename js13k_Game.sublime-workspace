@@ -4,129 +4,97 @@
 		"selected_items":
 		[
 			[
-				"jetpa",
-				"jetpackTimer"
-			],
-			[
-				"jet",
-				"jetpackTimer"
-			],
-			[
-				"level",
-				"levelObjs"
-			],
-			[
-				"key",
-				"keysPressed"
-			],
-			[
-				"start",
-				"startScreen"
-			],
-			[
-				"load",
-				"loadLevel"
-			],
-			[
-				"d",
-				"draw"
-			],
-			[
-				"map",
-				"map"
+				"cfinvoke",
+				"cfinvokeargument	Tag (cmfl)"
 			],
 			[
 				"get",
-				"getMap"
+				"getChildren"
 			],
 			[
-				"i",
-				"i"
+				"getPop",
+				"getPopupID"
 			],
 			[
-				"time",
-				"getTime"
+				"active",
+				"activePopup"
 			],
 			[
-				"dr",
-				"drawImage"
+				"dial",
+				"dialogsToDestroy"
 			],
 			[
-				"padding",
-				"padding-left"
+				"ini",
+				"initialize"
 			],
 			[
-				"margin",
-				"margin-bottom"
+				"saveBtn",
+				"saveBtnID"
 			],
 			[
-				"border-top",
-				"border-top-right-radius"
+				"dialo",
+				"dialogSaveBtn"
 			],
 			[
-				"border-ra",
-				"border-radius"
+				"popup",
+				"popupDiv"
 			],
 			[
-				"inline",
-				"inline-block"
+				"add",
+				"addClass"
 			],
 			[
-				"set",
-				"setupListeners"
+				"action",
+				"actionButtons"
 			],
 			[
-				"background",
-				"background-color"
+				"font",
+				"font-style"
 			],
 			[
 				"text",
 				"text-decoration"
 			],
 			[
-				"font",
-				"font-size"
-			],
-			[
-				"border",
-				"border-bottom"
-			],
-			[
-				"back",
+				"background",
 				"background-color"
 			],
 			[
-				"n",
-				"entityName	@entityName"
+				"ste",
+				"step_a"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"e",
+				"evaluate	fn. (cfscript)"
+			],
+			[
+				"td",
+				"td	Tag"
+			],
+			[
+				"serialize",
+				"serializeAnything"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"compa",
+				"companyid"
+			],
+			[
+				"JOIN",
+				"JOIN"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 637,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "game.js",
-			"settings":
-			{
-				"buffer_size": 13196,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "resources.json",
-			"settings":
-			{
-				"buffer_size": 245,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -141,17 +109,17 @@
 		[
 			[
 				"Package Control: ",
-				"Package Control: Install Package"
+				"Package Control: List Packages"
 			]
 		],
-		"width": 488.0
+		"width": 400.0
 	},
 	"console":
 	{
-		"height": 146.0,
+		"height": 126.0,
 		"history":
 		[
-			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+			"view.window().run_command('close_cftag')"
 		]
 	},
 	"distraction_free":
@@ -165,34 +133,50 @@
 	},
 	"expanded_folders":
 	[
-		"/D/dev projects/Javascript/js13k_Game"
+		"/C/projects/js13k-Game"
 	],
 	"file_history":
 	[
-		"/D/dev projects/Javascript/js13k_Game/game-min.js",
-		"/C/xampp/htdocs/average-coder-done/config.php",
-		"/C/xampp/htdocs/average-coder-done/lib/config.php",
-		"/C/xampp/htdocs/average-coder-done/lib/js/jquery-extensions.js",
-		"/C/xampp/htdocs/average-coder-done/lib/resizeClass.php",
-		"/C/xampp/htdocs/average-coder-done/index.php",
-		"/C/xampp/htdocs/average-coder-done/lib/css/global.css",
-		"/C/xampp/htdocs/average-coder-done/lib/functions.php",
-		"/C/ColdFusion11/cfusion/wwwroot/tutorials/tut2.js",
-		"/C/ColdFusion11/cfusion/wwwroot/tutorials/tut1.js",
-		"/C/ColdFusion11/cfusion/wwwroot/tutorials/lib/js/test.js",
-		"/C/ColdFusion11/cfusion/wwwroot/tutorials/lib/htmlhead.cfm",
-		"/C/ColdFusion11/cfusion/wwwroot/tutorials/popup.cfm",
-		"/C/ColdFusion11/cfusion/wwwroot/tutorials/lib/js/jquery-extensions.js",
-		"/C/ColdFusion11/cfusion/wwwroot/tutorials/lib/js/jquery-extensionsOld.js",
-		"/C/ColdFusion11/cfusion/wwwroot/tutorials/Application.cfc",
-		"/C/ColdFusion11/cfusion/wwwroot/tutorials/lib/css/global.css",
-		"/C/ColdFusion11/cfusion/wwwroot/tutorials/lib/htmlfoot.cfm",
-		"/C/Users/Simon/Desktop/test/test.cfm",
-		"/C/Users/Simon/Desktop/test.cfm"
+		"//10.0.0.5/webroot/torii/lib/js/jquery-extensionsNew.js",
+		"//10.0.0.5/webroot/torii/lib/js/jquery-extensions.js",
+		"//10.0.0.5/webroot/torii/admin/cost_group.cfm",
+		"//10.0.0.5/webroot/torii/test/form_standards.cfm",
+		"//10.0.0.5/webroot/torii/styles/style_costing_item.cfm",
+		"//10.0.0.5/webroot/torii/styles/style_costing.cfm",
+		"//10.0.0.5/webroot/torii/components/global.cfc",
+		"//10.0.0.5/webroot/torii/components/admin.cfc",
+		"//10.0.0.5/webroot/torii/admin/companies_det.cfm",
+		"//10.0.0.5/webroot/torii/css/global.css",
+		"//10.0.0.5/webroot/torii/admin/companies.cfm",
+		"//10.0.0.5/webroot/torii/lib/htmlhead.cfm",
+		"//10.0.0.5/webroot/torii/test/div_cat.cfm",
+		"//10.0.0.5/webroot/torii/lib/menu.cfm",
+		"//10.0.0.5/webroot/torii/test/form_standards_popup.cfm",
+		"//10.0.0.5/webroot/torii/css/email.css",
+		"//10.0.0.5/webroot/torii/lib/js/jquery-extensionsOld.js",
+		"//10.0.0.5/webroot/torii/admin/div_cat_admin.cfm",
+		"//10.0.0.5/webroot/torii/lib/menubar.cfm",
+		"//10.0.0.5/webroot/torii/lib/pageheader.cfm",
+		"//10.0.0.5/webroot/torii/test/comp_test/companies_det.cfm",
+		"//10.0.0.5/webroot/torii/test/comp_test/companies.cfm",
+		"//10.0.0.5/webroot/torii/admin/mst_newmst.cfm",
+		"//10.0.0.5/webroot/torii/popupError.cfm",
+		"//10.0.0.5/webroot/torii/css/custom-theme/jquery-ui-1.8.17.custom.css",
+		"//10.0.0.5/webroot/torii/lib/infoPopup.cfm",
+		"//10.0.0.5/webroot/torii/test/simon.cfm",
+		"//10.0.0.5/webroot/torii/admin/mst_det.cfm",
+		"//10.0.0.5/webroot/torii/admin/mst_newmst_old.cfm",
+		"//10.0.0.5/webroot/torii/admin/costing.cfm",
+		"//10.0.0.5/webroot/torii/admin/companies_old.cfm",
+		"//10.0.0.5/webroot/torii/lib/js/bind_handler.js",
+		"//10.0.0.5/webroot/torii/admin/mst_ajax.cfm",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/ColdFusion/Default.sublime-keymap",
+		"/C/ColdFusion11/cfusion/wwwroot/trains4/efile/efile.cfm",
+		"/C/ColdFusion11/cfusion/wwwroot/trains4/efile/disclaimer_english.html"
 	],
 	"find":
 	{
-		"height": 36.0
+		"height": 30.0
 	},
 	"find_in_files":
 	{
@@ -206,19 +190,33 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"4",
-			"{\n",
+			"gctid",
+			"Ports_Mod",
+			"PortCharge_mod",
+			"rsCostGroup",
+			"Currency",
+			"compdiv",
+			"updateChains",
 			"console.log",
-			"this.tick",
-			"that.tick",
+			"submitAll",
+			"setupDirtyListeners",
+			"root",
+			"submitAll",
+			"Divisions_Mod",
+			"popup(",
+			"infoBtn",
+			"btnID",
+			"ui-state-default",
+			"users",
+			"ui-icon",
+			"ui-corner-all",
 			"console.log",
-			">');\n",
-			"$_SESSION['userid']",
-			"350",
-			"!= ",
-			"!===",
-			"====",
-			"=="
+			"MST_Mod",
+			"MSTDet_Mod_newmst",
+			"template_line",
+			"MST_Mod",
+			"get_brands",
+			"Get_Companies"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -226,9 +224,6 @@
 		"regex": false,
 		"replace_history":
 		[
-			"!== ",
-			"!==",
-			"==="
 		],
 		"reverse": false,
 		"show_context": true,
@@ -239,105 +234,18 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 637,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								244,
-								244
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Enhanced HTML and CFML/EnhancedHTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "game.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 13196,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3803,
-								3803
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2140.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "resources.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 245,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								243,
-								243
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 28.0
+		"height": 30.0
 	},
 	"input":
 	{
-		"height": 34.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -370,7 +278,7 @@
 	"project": "js13k_Game.sublime-project",
 	"replace":
 	{
-		"height": 52.0
+		"height": 56.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -408,9 +316,10 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 234.0,
-	"status_bar_visible": false,
+	"side_bar_width": 316.0,
+	"status_bar_visible": true,
 	"template_settings":
 	{
+		"max_columns": 3
 	}
 }

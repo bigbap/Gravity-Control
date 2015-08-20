@@ -1,8 +1,9 @@
 {
+	"spriteSheet": "spritesheet.png",
 	"sprites":{
-		"hero":{"sx":0, "sy":0, "w":20, "h":20, "frames":2},
-		"blob":{"sx":80, "sy":0, "w":20, "h":20, "frames":2},
-		"tile":{"sx":120, "sy":0, "w":20, "h":20, "frames":1},
-		"bullet":{"sx":140, "sy":0, "w":20, "h":20, "frames":1}
+		"hero":{"sx":0, "sy":0, "w":20, "h":20, "dimM":1, "frames":2},
+		"zombie":{"sx":80, "sy":0, "w":20, "h":20, "dimM":1, "frames":2},
+		"tile":{"sx":160, "sy":0, "w":20, "h":20, "dimM":1, "frames":2},
+		"bullet":{"sx":240, "sy":0, "w":20, "h":20, "dimM":1, "frames":1}
 	}
 }
